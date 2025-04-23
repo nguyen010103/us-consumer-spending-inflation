@@ -34,4 +34,6 @@ data/processed/
 *.pdf
 *.svg
 *.csv
-*.xlsx
+*.xlsx.env
+__pycache__/
+.DS_Store
