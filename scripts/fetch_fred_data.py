@@ -52,3 +52,5 @@ if __name__ == "__main__":
 
     series_to_fetch = ["PCE", "CPIAUCSL", "CPIENGSL", "CPIFABSL", "CPIHOSSL", "PCEPILFE"]
     fetch_and_save_series(series_to_fetch)
+
+

@@ -37,3 +37,14 @@ data/processed/
 *.xlsx.env
 __pycache__/
 .DS_Store
+
+# Ignore raw and processed data
+data/raw/
+data/processed/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+__pycache__/
