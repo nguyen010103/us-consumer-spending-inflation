@@ -39,28 +39,44 @@ ___
 ###  COVID-19 Annotations
 Plots include a **vertical line marking March 2020**, the start of the pandemic’s economic impact, to help interpret sharp dips or spikes in the data.
 
+### The Saving Rates
+- The Savings Rate analysis confirms that during the 2010s, consumers spent most of their disposable income, maintaining low savings rates. 
+- In contrast, the pandemic period (2020–2021) saw a dramatic surge in savings as government stimulus raised incomes while spending opportunities shrank. 
+- As inflation rose post-pandemic, the savings rate declined, reflecting increasing cost pressures on households. 
+
+### Inflation Trends (CPI - PCEPI)
+- Although the CPI index is always numerically higher than the PCEPI index due to different weighting methods and base years, both CPI and PCEPI inflation rates track the underlying price movements in the economy. 
+- Significant inflation is observed when the year-over-year rates of CPI and PCEPI spike sharply together, such as the notable surge during 2021–2022 following pandemic-related disruptions and fiscal stimulus.
+
+### COVID 19 Economic Effects
+- Sharp dip in Real PCE during early 2020 (lockdowns).
+- Spikes in DSPI from fiscal stimulus (stimulus checks, enhanced unemployment benefits).
+- Elevated inflation starting from mid-2021, coinciding with supply chain disruptions and strong demand recovery.
+
 ---
 
 ##  Next Steps
-- Compute savings rate = (DSPI - Real PCE) / DSPI
-- Visualize inflation trends via CPI vs PCEPI
-- Add CPI/PCE by category (e.g. food, housing)
+- Build correlation models between DSPI, PCE, and CPI.
+- Forecast future inflation and consumption patterns.
+- Apply time series models (ARIMA, Prophet) for deeper forecasting.
 
----
-
-##  Getting Started
-1. Clone this repo
-2. Set up a Python environment and install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 ---
 
 ##  Author
 Nguyen Do  
 Analyzing macroeconomic trends through Python, pandas, and visual storytelling.
 
+<<<<<<< HEAD
 ___
 
 286515f (Update README with analysis of real PCE, DSPI, and COVID-19 policy impact)
 
+=======
+---
+
+## Example Graphs
+- Real vs Nominal PCE
+- DSPI vs Real PCE (higlighting stimulus impact)
+- CPI vs PCEPI
+- YoY inflation rate comparison
+>>>>>>> b0d0c90 (Annotate graphs and update key findings in README.)
