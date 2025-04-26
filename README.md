@@ -23,7 +23,7 @@ This project explores the relationship between **consumer spending**, **inflatio
 ##  Data Cleaning
 All raw datasets were loaded, cleaned using `drop_and_save.py`, and saved to the `data/processed` folder. Columns such as `realtime_start` and `realtime_end` were dropped, and rows with missing values were removed.
 
----
+___
 
 ##  Key Analysis
 
@@ -59,4 +59,8 @@ Plots include a **vertical line marking March 2020**, the start of the pandemicâ
 ##  Author
 Nguyen Do  
 Analyzing macroeconomic trends through Python, pandas, and visual storytelling.
+
+___
+
+286515f (Update README with analysis of real PCE, DSPI, and COVID-19 policy impact)
 
