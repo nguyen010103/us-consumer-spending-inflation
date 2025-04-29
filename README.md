@@ -53,6 +53,32 @@ Plots include a **vertical line marking March 2020**, the start of the pandemicâ
 - Spikes in DSPI from fiscal stimulus (stimulus checks, enhanced unemployment benefits).
 - Elevated inflation starting from mid-2021, coinciding with supply chain disruptions and strong demand recovery.
 
+### CPI Growth vs DSPI Growth Relationship
+- Scatter plot and correlation analysis show a very weak negative relationship between CPI growth rates and DSPI growth rates (correlation â‰ˆ -0.10).
+- This suggests that changes in consumer prices (inflation) and changes in disposable personal income growth are largely independent.
+- Major economic events (like COVID-19 stimulus) can cause large income fluctuations without proportionate changes in inflation rates.
+
+---
+
+## Data Forecasting - Inflation trends
+
+### Models Implemented:
+
+- **SARIMA**: Classical time series model (statsmodels)
+  - Grid search over seasonal and non-seasonal parameters
+  - Captured trend, but lagged in responding to sharp changes
+  - MAE: ~0.42 | RMSE: ~0.55 | MAPE: ~12.5%
+
+- **Random Forest Regressor**: Lag-based ML model (sklearn)
+  - Feature engineered using 12 lag variables
+  - Tuned via GridSearchCV for optimal parameters
+  - MAE: 0.176 | RMSE: 0.044 | MAPE: 6.23%
+  - Outperformed SARIMA on all test metrics
+
+### Visuals:
+- Line plot: Actual vs SARIMA vs RF forecasts
+- Error comparison: Table + Bar chart
+
 ---
 
 ##  Next Steps
@@ -66,12 +92,6 @@ Plots include a **vertical line marking March 2020**, the start of the pandemicâ
 Nguyen Do  
 Analyzing macroeconomic trends through Python, pandas, and visual storytelling.
 
-<<<<<<< HEAD
-___
-
-286515f (Update README with analysis of real PCE, DSPI, and COVID-19 policy impact)
-
-=======
 ---
 
 ## Example Graphs
@@ -79,4 +99,4 @@ ___
 - DSPI vs Real PCE (higlighting stimulus impact)
 - CPI vs PCEPI
 - YoY inflation rate comparison
->>>>>>> b0d0c90 (Annotate graphs and update key findings in README.)
+
