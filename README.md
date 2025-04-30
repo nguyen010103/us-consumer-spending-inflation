@@ -88,13 +88,6 @@ Plots include a **vertical line marking March 2020**, the start of the pandemicâ
 
 ---
 
-##  Next Steps
-- Build correlation models between DSPI, PCE, and CPI.
-- Forecast future inflation and consumption patterns.
-- Apply time series models (ARIMA, Prophet) for deeper forecasting.
-
----
-
 ##  Author
 Nguyen Do  
 Nguyen Do â€” [LinkedIn](https://www.linkedin.com) | Data & Analytics Portfolio  
