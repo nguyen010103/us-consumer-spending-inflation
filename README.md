@@ -4,6 +4,13 @@ This project explores the relationship between **consumer spending**, **inflatio
 
 ---
 
+## Objectives
+- Forecast U.S. inflation (CPI YoY %) using time series models
+- Compare traditional SARIMA with machine learning-based Random Forest
+- Visualize and evaluate model performance with proper metrics
+
+---
+
 ##  Data Sources
 
 - **Consumer Price Index (CPI)**  
@@ -77,7 +84,7 @@ Plots include a **vertical line marking March 2020**, the start of the pandemicâ
 
 ### Visuals:
 - Line plot: Actual vs SARIMA vs RF forecasts
-- Error comparison: Table + Bar chart
+- Error comparison: Table + Bar chart 
 
 ---
 
@@ -90,13 +97,16 @@ Plots include a **vertical line marking March 2020**, the start of the pandemicâ
 
 ##  Author
 Nguyen Do  
-Analyzing macroeconomic trends through Python, pandas, and visual storytelling.
+Nguyen Do â€” [LinkedIn](https://www.linkedin.com) | Data & Analytics Portfolio  
+Currently pursuing advanced analytics in economic trends and financial forecasting.
 
 ---
 
-## Example Graphs
-- Real vs Nominal PCE
-- DSPI vs Real PCE (higlighting stimulus impact)
-- CPI vs PCEPI
-- YoY inflation rate comparison
+## ðŸ“‰ Visual Output
+
+### Forecast Comparison:
+![Forecast](figures/inflation_model_comparison.png)
+
+### Error Metrics Comparison:
+![Metrics](figures/forecast_error_metrics.png)
 
